@@ -54,6 +54,17 @@ function placeTexts(idcode) {
 		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/TEFCoderApp.PNG" 
 			alt="TEFCoderApp">`;
 	}
+	else if(idcode == "1-6") {
+		document.getElementById('projectTitle').innerHTML = "Urbank Exchange Velta Web Application";
+		document.getElementById('projectDetails').innerHTML = `<b>(June 2021 - August 2021): </b>
+			I worked as a softwared developer in the company Velta where I was assigned to help develop the
+			page that manages investor's crypto coins exchange matters, as well as developing the page's
+			proper navigation, database for user registration and authentication protocol. The application
+			was developed using the frameworks Django for the Back End and Bootstrap for the Front End.
+			Large amounts of research were required since this was my first project using Django.`;
+		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/urbhome.PNG" 
+			alt="UrbankHome">`;
+	}
 	else if(idcode == "2-1") {
 		document.getElementById('projectTitle').innerHTML = "Ultrasonic Pong Game";
 		document.getElementById('projectDetails').innerHTML = `<b>(November 2017): </b>
