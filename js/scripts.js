@@ -15,7 +15,7 @@ function placeTexts(idcode) {
 			creating web applications with Angular 8. The first task was to create a To-Do List 
 			and the final project consisted in creating (with the other trainees) an application 
 			that stored the updated worldwide information about COVID-19.`;
-		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/covidangular.JPG" 
+		document.getElementById('projectMedia').innerHTML = `<img width="350" height="200" src="resources/covidangular.JPG" 
 			alt="CovidAngular">`;
 	}
 	else if(idcode == "1-3") {
@@ -51,7 +51,7 @@ function placeTexts(idcode) {
 			alternative for displaying images of the road to be evaluated and coding certain parameters 
 			that will be stored on a CSV file and sent to the iRAP evaluation, which will eventually give 
 			a conclusion about a road's security with a 5-star rating.`;
-		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/TEFCoderApp.PNG" 
+		document.getElementById('projectMedia').innerHTML = `<img width="350" height="200" src="resources/TEFCoderApp.PNG" 
 			alt="TEFCoderApp">`;
 	}
 	else if(idcode == "1-6") {
@@ -62,7 +62,7 @@ function placeTexts(idcode) {
 			proper navigation, database for user registration and authentication protocol. The application
 			was developed using the frameworks Django for the Back End and Bootstrap for the Front End.
 			Large amounts of research were required since this was my first project using Django.`;
-		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/urbhome.PNG" 
+		document.getElementById('projectMedia').innerHTML = `<img width="350" height="200" src="resources/urbhome.PNG" 
 			alt="UrbankHome">`;
 	}
 	else if(idcode == "2-1") {
@@ -111,7 +111,7 @@ function placeTexts(idcode) {
 			computer through an OBD cable. Some information that was displayed was speed, 
 			RPMs, coolant temperature, throttle position, fuel pressure, time elapsed 
 			since ignition, malfunction report and many more.`;
-		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/cluster.JPG" 
+		document.getElementById('projectMedia').innerHTML = `<img width="350" height="200" src="resources/cluster.JPG" 
 			alt="CarCluster">`;
 	}
 	else if(idcode == "2-5") {
@@ -136,7 +136,7 @@ function placeTexts(idcode) {
 			and performs its tasks with various PHP programs and SQL queries following the MVC pattern 
 			to properly opperate CRUD (Create, Read, Update, Delete) functions over anything stored in 
 			the database.`;
-		document.getElementById('projectMedia').innerHTML = `<img width="400" height="200" src="resources/InventorizerDemo.PNG" 
+		document.getElementById('projectMedia').innerHTML = `<img width="350" height="200" src="resources/InventorizerDemo.PNG" 
 			alt="InventorizerDemo">`;
 	}
 }
