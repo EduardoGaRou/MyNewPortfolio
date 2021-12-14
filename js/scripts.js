@@ -152,7 +152,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectMedia').innerHTML = `<img class="visualimg" src="resources/InventorizerDemo.PNG" 
 			alt="InventorizerDemo">`;
 	}
-	else if(idocde == "2-8") {
+	else if(idcode == "2-8") {
 		document.getElementById('projectTitle').innerHTML = "'Gary.exe' Robotics Project";
 		document.getElementById('projectDetails').innerHTML = `<b>(October - November 2021): </b>
 			This project aimed to create an Agribot that has the ability of depositing seeds on the ground
