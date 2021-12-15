@@ -70,6 +70,23 @@ h5 {
     height: 200px;
 }
 
+.visualvideo {
+    width: 350px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 990px){
+    .visualimg {
+        width: 580px;
+        height: 320px;
+    }
+
+    .visualvideo {
+        width: 550px;
+        height: 320px;
+    }
+}
+
 @media only screen and (max-width: 400px){
     .visualimg {
         width: 320px;
