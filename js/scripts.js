@@ -15,7 +15,7 @@ function placeTexts(idcode) {
 			creating web applications with Angular 8. The first task was to create a To-Do List 
 			and the final project consisted in creating (with the other trainees) an application 
 			that stored the updated worldwide information about COVID-19.`;
-		document.getElementById('projectMedia').innerHTML = `<img class="visualimg" src="resources/covidangular.JPG" 
+		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/covidangular.JPG" 
 			alt="CovidAngular">`;
 	}
 	else if(idcode == "1-3") {
@@ -25,7 +25,7 @@ function placeTexts(idcode) {
 			the basic tools for building mobile applications for the Android operating system using React 
 			Native. The final result of the project was an application that collected important worldwide 
 			data regarding the COVID-19 pandemic from a web API with extra functions like login and calendars.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/_fBGG_WrItg" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
@@ -38,7 +38,7 @@ function placeTexts(idcode) {
 			was cancelled nearly at the end, I was able to complete the assigned project for the end of 
 			the bootcamp: an app that consisted in an online shop were people could buy products with 
 			daily sales and their requests were saved in a Cloud Firestore collection.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/tpdpM8Rggh8" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
@@ -51,7 +51,7 @@ function placeTexts(idcode) {
 			alternative for displaying images of the road to be evaluated and coding certain parameters 
 			that will be stored on a CSV file and sent to the iRAP evaluation, which will eventually give 
 			a conclusion about a road's security with a 5-star rating.`;
-		document.getElementById('projectMedia').innerHTML = `<img class="visualimg" src="resources/TEFCoderApp.PNG" 
+		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/TEFCoderApp.PNG" 
 			alt="TEFCoderApp">`;
 	}
 	else if(idcode == "1-6") {
@@ -62,7 +62,7 @@ function placeTexts(idcode) {
 			proper navigation, database for user registration and authentication protocol. The application
 			was developed using the frameworks Django for the Back End and Bootstrap for the Front End.
 			Large amounts of research were required since this was my first project using Django.`;
-		document.getElementById('projectMedia').innerHTML = `<img class="visualimg" src="resources/urbhome.PNG" 
+		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/urbhome.PNG" 
 			alt="UrbankHome">`;
 	}
 	else if(idcode == "2-1") {
@@ -73,7 +73,7 @@ function placeTexts(idcode) {
 			on a screen by a VGA port. Both paddles were controlled by two different ultrasonic 
 			sensors, the paddles' height depended on the sensors readings and the scores were 
 			shown on the FPGA's displays.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/fwJMlncWvzc" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
@@ -86,7 +86,7 @@ function placeTexts(idcode) {
 			by covering ultrasonic sensors to turn colors off or automatically with adjustable speed. The 
 			microcontroller plays the Jingle Bells music and displays a sign that says 'Merry Christmas and 
 			a Happy New Year!'.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo"
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo"
 			src="https://www.youtube.com/embed/7NAt_utkXAo" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowfullscreen></iframe>`;
@@ -98,7 +98,7 @@ function placeTexts(idcode) {
 			(2019) which allowed to cipher and decipher any kind of file with the help of a key. A simpler 
 			version of this project was then repeated on a Basys 3 FPGA for shorter messages entered through 
 			a software called Docklight (2020).`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/MBkR7mzTEqo" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
@@ -111,7 +111,7 @@ function placeTexts(idcode) {
 			and the bat was controlled by moving it up and down by touching a pair of metal 
 			slates that worked as capacitive sensors while the microcontroller played our version 
 			of the original Tetris theme.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/TDtBzA5wqBY" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
@@ -124,7 +124,7 @@ function placeTexts(idcode) {
 			computer through an OBD cable. Some information that was displayed was speed, 
 			RPMs, coolant temperature, throttle position, fuel pressure, time elapsed 
 			since ignition, malfunction report and many more.`;
-		document.getElementById('projectMedia').innerHTML = `<img class="visualimg" src="resources/cluster.JPG" 
+		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/cluster.JPG" 
 			alt="CarCluster">`;
 	}
 	else if(idcode == "2-6") {
@@ -135,7 +135,7 @@ function placeTexts(idcode) {
 			on the computer's keyboard, and automatically by recording when movement is 
 			detected and taking pictures when a human front face or profile face was detected 
 			on the captured frame. All images and videos recorded were saved on a separate folder.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/V8WIRvl7tSg" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
@@ -149,7 +149,7 @@ function placeTexts(idcode) {
 			and performs its tasks with various PHP programs and SQL queries following the MVC pattern 
 			to properly opperate CRUD (Create, Read, Update, Delete) functions over anything stored in 
 			the database.`;
-		document.getElementById('projectMedia').innerHTML = `<img class="visualimg" src="resources/InventorizerDemo.PNG" 
+		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/InventorizerDemo.PNG" 
 			alt="InventorizerDemo">`;
 	}
 	else if(idcode == "2-8") {
@@ -160,7 +160,7 @@ function placeTexts(idcode) {
 			computer and a local network to communicate. It is able to follow nearby objects and move semi-autonomously
 			avoiding obstacles. It notifies to the remote computer when its tank runs out of seeds, requesting
 			a refill and that it must return to its base to get more seeds to the tank.`;
-		document.getElementById('projectMedia').innerHTML = `<iframe class="visualvideo" 
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/8QQ5aAXFx5M" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;

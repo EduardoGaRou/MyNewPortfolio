@@ -65,29 +65,39 @@ h5 {
     list-style-type:square;
 }
 
+.modalimg {
+    width: 400px;
+    height: 200px;
+}
+
 .visualimg {
     width: 400px;
     height: 200px;
 }
 
-.visualvideo {
+.modalvideo {
     width: 350px;
     height: 200px;
 }
 
 @media only screen and (min-width: 990px){
-    .visualimg {
+    .modalimg {
         width: 580px;
         height: 320px;
     }
 
-    .visualvideo {
+    .modalvideo {
         width: 550px;
         height: 320px;
     }
 }
 
 @media only screen and (max-width: 400px){
+    .modalimg {
+        width: 320px;
+        height: 150px;
+    }
+
     .visualimg {
         width: 320px;
         height: 150px;
