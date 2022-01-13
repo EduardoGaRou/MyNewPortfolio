@@ -72,7 +72,7 @@ function placeTexts(idcode) {
 			This project consisted in building the classical Pong videogame on a computer 
 			screen; however, the game was being processed by a Nexys 3 FPGA and depicted 
 			on a screen by a VGA port. Both paddles were controlled by two different ultrasonic 
-			sensors, the paddles' posittion depended on the sensors readings and the scores were 
+			sensors, the paddles' position depended on the sensors' readings and the scores were 
 			shown on the FPGA's displays.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
 			src="https://www.youtube.com/embed/fwJMlncWvzc" frameborder="0" 
@@ -82,10 +82,10 @@ function placeTexts(idcode) {
 	else if(idcode == "2-2-eng") {
 		document.getElementById('projectTitle').innerHTML = "Microcontroller Christmas Ornament";
 		document.getElementById('projectDetails').innerHTML = `<b>(November 2018): </b>
-			This project aims to cover most of the topics regarding microcontrollers seen throughout the
-			semester. The project consists of a christmas ornament made up of RGB lights that change colors 
+			This project aimed to cover most of the topics regarding microcontrollers seen throughout the
+			semester. The project consisted of a christmas ornament made up of RGB lights that change colors 
 			automatically with adjustable speed or by covering ultrasonic sensors to turn colors off. The 
-			microcontroller plays the Jingle Bells song and displays a sign that says 'Merry Christmas and 
+			microcontroller played the Jingle Bells song and displayed a sign that says 'Merry Christmas and 
 			a Happy New Year!'.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo"
 			src="https://www.youtube.com/embed/7NAt_utkXAo" frameborder="0" 
@@ -120,7 +120,7 @@ function placeTexts(idcode) {
 	else if(idcode == "2-5-eng") {
 		document.getElementById('projectTitle').innerHTML = "CVI Car Cluster";
 		document.getElementById('projectDetails').innerHTML = `<b>(October 2019): </b>
-			This porject consisted in building a cluster using LabWindows CVI that could 
+			This project consisted in building a cluster using LabWindows CVI that could 
 			report the actual information about a vehicle while it is connected to the 
 			computer through an OBD cable. Some information that was displayed was speed, 
 			RPMs, coolant temperature, throttle position, fuel pressure, time elapsed 
@@ -143,7 +143,7 @@ function placeTexts(idcode) {
 	}
 	else if(idcode == "2-7-eng") {
 		document.getElementById('projectTitle').innerHTML = "'Inventorizer' Web App";
-		document.getElementById('projectDetails').innerHTML = `<b>(May 2021 - June 2021): </b>
+		document.getElementById('projectDetails').innerHTML = `<b>(May - June 2021): </b>
 			The main purpose of this project was to implement a web application in which users could 
 			register and authenticate themselves in order to store items, categories and stashes that 
 			help them manage their personal inventories. This application communicates with a database 
@@ -180,7 +180,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectTitle').innerHTML = "Entrenamiento PK Angular 8";
 		document.getElementById('projectDetails').innerHTML = `<b>(Junio 2020 - Agosto 2020): </b>
 			Fui asignado por ProKarma para formar parte de un entrenamiento en el que aprendí las bases 
-			de crear aplicaciones web con Angular 8. EL primer trabajo fue crear una lista de quehaceres 
+			de crear aplicaciones web con Angular 8. El primer trabajo fue crear una lista de quehaceres 
 			y el proyecto final consistió en crear (con otros aprendices) una aplicación que mostrara
 			información global acerca del COVID-19.`;
 		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/covidangular.JPG" 
@@ -226,7 +226,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectTitle').innerHTML = "Aplicación Web Urbank Exchange Velta";
 		document.getElementById('projectDetails').innerHTML = `<b>(Junio 2021 - Agosto 2021): </b>
 			Trabajé como desarrollador de software en la compañía Velta donde ayudé en el desarrollo de una 
-			página que administra cuestiones respecto al intercambio de crypto moendas de inversionistas, así 
+			página que administra cuestiones respecto al intercambio de crypto monedas de inversionistas, así 
 			como ayudar en el desarrollo de la navegación adecuada de la página, la base de datos para el registro 
 			de usuarios y el protocolo de autenticación. La aplicación fue desarrollada usando los frameworks Django
 			para el Back End y Bootstrap para el Front End. Largos tiempos de investigación fueron requeridos ya que
@@ -251,9 +251,9 @@ function placeTexts(idcode) {
 		document.getElementById('projectTitle').innerHTML = "Adorno Navideño con Microcontrolador";
 		document.getElementById('projectDetails').innerHTML = `<b>(Noviembre 2018): </b>
 			Este proyecto buscó cubrir la mayoría de los temas respecto a microcontroladores vistos a lo largo
-			del semestre. El proyecto consiste en un adorno navideño hecho con luces RGB que cambian colores 
+			del semestre. El proyecto consistió en un adorno navideño hecho con luces RGB que cambian colores 
 			automáticamente con velocidad ajustable o al cubrir sensores ultrasónicos para apagar colores. El 
-			microcontrolador pone la cacnión de Jingle Bells y despliega un letrero en inglés que dice '¡Feliz 
+			microcontrolador ponía la canción de Jingle Bells y desplegaba un letrero en inglés que dice '¡Feliz 
 			Navidad y Próspero Año Nuevo!'.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo"
 			src="https://www.youtube.com/embed/7NAt_utkXAo" frameborder="0" 
@@ -311,9 +311,9 @@ function placeTexts(idcode) {
 	}
 	else if(idcode == "2-7-esp") {
 		document.getElementById('projectTitle').innerHTML = "Aplicación Web 'Inventorizer'";
-		document.getElementById('projectDetails').innerHTML = `<b>(Mayo 2021 - Junio 2021): </b>
+		document.getElementById('projectDetails').innerHTML = `<b>(Mayo - Junio 2021): </b>
 			El propósito principal de este proyecto era implementar una aplicación web en la que usuarios 
-			pudieran registrarse y autenticarse archivar objetos, categorías y almacenes que ayudaran 
+			pudieran registrarse y autenticarse para archivar objetos, categorías y almacenes que ayudaran 
 			a administrar inventarios personales. Esta aplicación se comunica con una base de datos 
 			y realiza sus funciones con varios programas de PHP y consultas de SQL siguiendo estructuras MVC 
 			para operar adecuadamente las funciones de CRUD (Acrónimo en inglés de Crear, Leer, Actualizar, 
@@ -325,7 +325,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectTitle').innerHTML = "Proyecto de Robótica 'Gary.exe'";
 		document.getElementById('projectDetails').innerHTML = `<b>(Octubre - Noviembre 2021): </b>
 			Este proyecto buscó construir un Agribot que depositara semillas en el suelo mientras pudiera 
-			moverse en modo manual con un controlador joystick o mediante modo ROS mode utilizando una computadora
+			moverse en modo manual con un controlador joystick o mediante modo ROS utilizando una computadora
 			remota y una red local para comunicaciones. El robot es capaz de seguir objetos cercanos y moverse de 
 			forma semi-autónoma evitando obstáculos. Además, notifica a la computadora remota cuando el tanque se  
 			queda sin semillas, pidiendo un relleno y que debe regresar a su base para obtener más semillas para el tanque.`;
