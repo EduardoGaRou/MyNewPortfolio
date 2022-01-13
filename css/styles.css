@@ -30,6 +30,11 @@ h5 {
     color: #264653;
 }
 
+footer div{
+    text-align: left;
+    padding: 10px;
+}
+
 .bg-light {
     background: #DCE1DE;
 }
@@ -78,6 +83,17 @@ h5 {
 .modalvideo {
     width: 350px;
     height: 200px;
+}
+
+.author {
+    font-size: 13px;
+    color: #707070;
+    text-align: left;
+}
+
+.langicon {
+    height: 24px;
+    width: 36px;
 }
 
 @media only screen and (min-width: 990px){
