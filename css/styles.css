@@ -35,6 +35,18 @@ footer div{
     padding: 10px;
 }
 
+figure {
+    display: table;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    /*font-size: 90%;*/
+    text-align: center;
+    /*color: #6C757D;*/
+}
+
 .bg-light {
     background: #DCE1DE;
 }
