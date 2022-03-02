@@ -25,9 +25,19 @@ h3 {
     color: #264653;
 }
 
+h4 {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #264653;
+}
+
 h5 {
     font-weight: bold;
     color: #264653;
+}
+
+b {
+
 }
 
 footer div{
@@ -70,8 +80,31 @@ figcaption {
     margin-top: 6rem !important;
 }
 
-.githubLink {
-    color: #8783D1;
+.mb-6 {
+    margin-bottom: 6rem !important;
+}
+
+.links-1 {
+    color: #7773C1;
+}
+
+.links-2 {
+    color: #5396BD;
+}
+
+.links-3 {
+    text-decoration: underline;
+    color: #F53505;
+}
+
+.details {
+    color: #5396BD;
+    cursor: pointer;
+}
+
+.details:hover, .details:active {
+    color: #0C0A57;
+    text-decoration: underline;
 }
 
 .listDisc {
@@ -97,6 +130,11 @@ figcaption {
     height: 200px;
 }
 
+.introvideo {
+    width: 320px;
+    height: 170px;
+}
+
 .author {
     font-size: 13px;
     color: #707070;
@@ -117,6 +155,11 @@ figcaption {
     .modalvideo {
         width: 550px;
         height: 320px;
+    }
+
+    .introvideo {
+        width: 470px;
+        height: 250px;
     }
 }
 

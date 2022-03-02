@@ -59,7 +59,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectTitle').innerHTML = "Urbank Exchange Velta Web Application";
 		document.getElementById('projectDetails').innerHTML = `<b>(June 2021 - August 2021): </b>
 			I worked as a software developer in the company Velta where I was assigned to help develop the
-			page that manages investor's crypto coins exchange matters, as well as help develop the page's
+			page that manages investor's cryptocoins exchange matters, as well as help develop the page's
 			proper navigation, database for user registration and authentication protocol. The application
 			was developed using the frameworks Django for the Back End and Bootstrap for the Front End.
 			Large amounts of research were required since this was my first project using Django.`;
@@ -85,8 +85,8 @@ function placeTexts(idcode) {
 			This project aimed to cover most of the topics regarding microcontrollers seen throughout the
 			semester. The project consisted of a christmas ornament made up of RGB lights that change colors 
 			automatically with adjustable speed or by covering ultrasonic sensors to turn colors off. The 
-			microcontroller played the Jingle Bells song and displayed a sign that says 'Merry Christmas and 
-			a Happy New Year!'.`;
+			microcontroller is an ATmega328P that played the Jingle Bells song and displayed a sign that says 
+			'Merry Christmas and a Happy New Year!'.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo"
 			src="https://www.youtube.com/embed/7NAt_utkXAo" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -95,7 +95,7 @@ function placeTexts(idcode) {
 	else if(idcode == "2-3-eng") {
 		document.getElementById('projectTitle').innerHTML = "AES Rijndael Cipher Algorithm";
 		document.getElementById('projectDetails').innerHTML = `<b>(May 2019 & June 2020): </b> 
-			This project consisted in implementing the AES Rijndael ciphering algorithm on a microcontroller 
+			This project consisted in implementing the AES Rijndael ciphering algorithm on a Teensy++ microcontroller 
 			(2019) which allowed to cipher and decipher any kind of file with the help of a key. A simpler 
 			version of this project was then repeated on a Basys 3 FPGA for shorter messages entered through 
 			a software called Docklight (2020).`;
@@ -124,7 +124,8 @@ function placeTexts(idcode) {
 			report the actual information about a vehicle while it is connected to the 
 			computer through an OBD cable. Some information that was displayed was speed, 
 			RPMs, coolant temperature, throttle position, fuel pressure, time elapsed 
-			since ignition, malfunction report and many more.`;
+			since ignition, malfunction report and many more. If some data was not available, 
+			an error was displayed.`;
 		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/cluster.JPG" 
 			alt="CarCluster">`;
 	}
@@ -226,7 +227,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectTitle').innerHTML = "Aplicación Web Urbank Exchange Velta";
 		document.getElementById('projectDetails').innerHTML = `<b>(Junio 2021 - Agosto 2021): </b>
 			Trabajé como desarrollador de software en la compañía Velta donde ayudé en el desarrollo de una 
-			página que administra cuestiones respecto al intercambio de crypto monedas de inversionistas, así 
+			página que administra cuestiones respecto al intercambio de criptomonedas de inversionistas, así 
 			como ayudar en el desarrollo de la navegación adecuada de la página, la base de datos para el registro 
 			de usuarios y el protocolo de autenticación. La aplicación fue desarrollada usando los frameworks Django
 			para el Back End y Bootstrap para el Front End. Largos tiempos de investigación fueron requeridos ya que
@@ -253,8 +254,8 @@ function placeTexts(idcode) {
 			Este proyecto buscó cubrir la mayoría de los temas respecto a microcontroladores vistos a lo largo
 			del semestre. El proyecto consistió en un adorno navideño hecho con luces RGB que cambian colores 
 			automáticamente con velocidad ajustable o al cubrir sensores ultrasónicos para apagar colores. El 
-			microcontrolador ponía la canción de Jingle Bells y desplegaba un letrero en inglés que dice '¡Feliz 
-			Navidad y Próspero Año Nuevo!'.`;
+			microcontrolador era un ATmega328P que ponía la canción de Jingle Bells y desplegaba un letrero en 
+			inglés que dice '¡Feliz Navidad y Próspero Año Nuevo!'.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo"
 			src="https://www.youtube.com/embed/7NAt_utkXAo" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -263,7 +264,7 @@ function placeTexts(idcode) {
 	else if(idcode == "2-3-esp") {
 		document.getElementById('projectTitle').innerHTML = "Algoritmo Cifrador AES Rijndael";
 		document.getElementById('projectDetails').innerHTML = `<b>(Mayo 2019 & Junio 2020): </b> 
-			Este proyecto consistió en implementar el algoritmo AES Rijndael en un microcontrolador 
+			Este proyecto consistió en implementar el algoritmo AES Rijndael en un microcontrolador Teensy++
 			(2019) que permite cifrar y decifrar cualquier tipo de archivo con ayuda de una llave. Una versión 
 			más sencilla de este proyecto fue repetida en una FPGA Basys 3 para mensajes más cortos  
 			introducidos a través de un software llamado Docklight (2020).`;
@@ -292,7 +293,8 @@ function placeTexts(idcode) {
 			reportar información real acerca de un vehículo mientras está conectado a una 
 			computadora con un cable OBD. La información desplegada era velocidad, 
 			RPMs, temperatura de refrigerante, posición de acelerador, presión del tanque,  
-			tiempo transcurrido desde encendido, reporte de problemas y muchas más.`;
+			tiempo transcurrido desde encendido, reporte de problemas y muchas más. Si un dato 
+			no estaba disponible, se mostraba un error.`;
 		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/cluster.JPG" 
 			alt="CarCluster">`;
 	}
