@@ -130,6 +130,21 @@ function placeTexts(idcode) {
 			alt="CarCluster">`;
 	}
 	else if(idcode == "2-6-eng") {
+		document.getElementById('projectTitle').innerHTML = "Rover 'Curiosity 2019'";
+		document.getElementById('projectDetails').innerHTML = `<b>(November 2019): </b>
+			This project consisted in a week of work to build a space exploration Rover capable 
+			of measuring humidity levels in soil. During the five days of work, many activities 
+			took place like planning, learning sessions, mechanical, electronic and programming 
+			implementations, and sensing and mobility tests. The final part of the project consisted 
+			in passing a mobility test by avoiding obstacles, a sensing test by measuring humidity 
+			in three different soil samples, and a precision test by popping certain balloons 
+			indicated by the advisers.`;
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
+			src="https://www.youtube.com/embed/6qVBhnJ04xM" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen></iframe>`;
+	}
+	else if(idcode == "2-7-eng") {
 		document.getElementById('projectTitle').innerHTML = "Smart Surveillance Camera";
 		document.getElementById('projectDetails').innerHTML = `<b>(November 2020): </b>
 			This project consisted in creating a camera using Python and OpenCV that was 
@@ -142,7 +157,7 @@ function placeTexts(idcode) {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
 	}
-	else if(idcode == "2-7-eng") {
+	else if(idcode == "2-8-eng") {
 		document.getElementById('projectTitle').innerHTML = "'Inventorizer' Web App";
 		document.getElementById('projectDetails').innerHTML = `<b>(May - June 2021): </b>
 			The main purpose of this project was to implement a web application in which users could 
@@ -154,7 +169,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/InventorizerDemo.PNG" 
 			alt="InventorizerDemo">`;
 	}
-	else if(idcode == "2-8-eng") {
+	else if(idcode == "2-9-eng") {
 		document.getElementById('projectTitle').innerHTML = "'Gary.exe' Robotics Project";
 		document.getElementById('projectDetails').innerHTML = `<b>(October - November 2021): </b>
 			This project aimed to create an Agribot that has the ability of depositing seeds on the ground
@@ -299,6 +314,21 @@ function placeTexts(idcode) {
 			alt="CarCluster">`;
 	}
 	else if(idcode == "2-6-esp") {
+		document.getElementById('projectTitle').innerHTML = "Rover 'Curiosity 2019'";
+		document.getElementById('projectDetails').innerHTML = `<b>(Noviembre 2019): </b>
+			Este proyecto consistió en una semana de trabajo para construir un Rover de exploración 
+			espacial capaz de medir los niveles de humedad en la tierra. Durante los cinco días de trabajo, 
+			se estuvieron llevando a cabo planeaciones, sesiones de teoría, implementaciones mecánicas, 
+			electrónicas y de programación y pruebas de sensado y movilidad. La parte final del proyecto 
+			consistió en pasar una prueba de movimiento esquivando obstáculos, una prueba de sensado 
+			midiendo humedad de tres muestras de tierra distintas y una prueba de precisión 
+			del brazo al ponchar unos globos indicados por los asesores.`;
+		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
+			src="https://www.youtube.com/embed/6qVBhnJ04xM" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen></iframe>`;
+	}
+	else if(idcode == "2-7-esp") {
 		document.getElementById('projectTitle').innerHTML = "Cámara de Vigilancia Inteligente";
 		document.getElementById('projectDetails').innerHTML = `<b>(Noviembre 2020): </b>
 			Este proyecto consistió en crear una cámara usando Python y OpenCV que pudiera 
@@ -311,7 +341,7 @@ function placeTexts(idcode) {
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
 	}
-	else if(idcode == "2-7-esp") {
+	else if(idcode == "2-8-esp") {
 		document.getElementById('projectTitle').innerHTML = "Aplicación Web 'Inventorizer'";
 		document.getElementById('projectDetails').innerHTML = `<b>(Mayo - Junio 2021): </b>
 			El propósito principal de este proyecto era implementar una aplicación web en la que usuarios 
@@ -323,7 +353,7 @@ function placeTexts(idcode) {
 		document.getElementById('projectMedia').innerHTML = `<img class="modalimg" src="resources/InventorizerDemo.PNG" 
 			alt="InventorizerDemo">`;
 	}
-	else if(idcode == "2-8-esp") {
+	else if(idcode == "2-9-esp") {
 		document.getElementById('projectTitle').innerHTML = "Proyecto de Robótica 'Gary.exe'";
 		document.getElementById('projectDetails').innerHTML = `<b>(Octubre - Noviembre 2021): </b>
 			Este proyecto buscó construir un Agribot que depositara semillas en el suelo mientras pudiera 
