@@ -100,7 +100,7 @@ function placeTexts(idcode) {
 			version of this project was then repeated on a Basys 3 FPGA for shorter messages entered through 
 			a software called Docklight (2020).`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
-			src="https://www.youtube.com/embed/MBkR7mzTEqo" frameborder="0" 
+			src="https://www.youtube.com/embed/OzFFQ0KbDS4" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
 	}
@@ -113,7 +113,7 @@ function placeTexts(idcode) {
 			slates that worked as capacitive sensors while the microcontroller played our version 
 			of the original Tetris main theme.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
-			src="https://www.youtube.com/embed/TDtBzA5wqBY" frameborder="0" 
+			src="https://www.youtube.com/embed/uL8uwzlLm5s" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
 	}
@@ -284,7 +284,7 @@ function placeTexts(idcode) {
 			más sencilla de este proyecto fue repetida en una FPGA Basys 3 para mensajes más cortos  
 			introducidos a través de un software llamado Docklight (2020).`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
-			src="https://www.youtube.com/embed/MBkR7mzTEqo" frameborder="0" 
+			src="https://www.youtube.com/embed/OzFFQ0KbDS4" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
 	}
@@ -297,7 +297,7 @@ function placeTexts(idcode) {
 			metal que funcionaban como sensores capacitivos mientras que el microcontrolador ponía una versión 
 			propia del tema principal del juego original Tetris.`;
 		document.getElementById('projectMedia').innerHTML = `<iframe class="modalvideo" 
-			src="https://www.youtube.com/embed/TDtBzA5wqBY" frameborder="0" 
+			src="https://www.youtube.com/embed/uL8uwzlLm5s" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>`;
 	}
