@@ -156,14 +156,40 @@ figcaption {
         width: 550px;
         height: 320px;
     }
+}
 
+@media only screen and (min-width: 1200px){
     .introvideo {
         width: 470px;
         height: 250px;
     }
 }
 
+/*Small screens*/
 @media only screen and (max-width: 400px){
+    .introvideo {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+/*Very small screens*/
+@media only screen and (max-width: 360px){
+    .introvideo {
+        width: 270px;
+        height: 120px;
+    }
+}
+
+/*Medium screens*/
+@media only screen and (min-width: 450px) and (max-width: 950px){
+    .introvideo {
+        width: 400px;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 450px){
     .modalimg {
         width: 320px;
         height: 150px;
